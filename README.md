@@ -20,19 +20,19 @@ Sum of the first nth term of Series
 - Tests: test_sum_nth_series.py
 - Link: http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/
 
-For UFC Fans (Total Beginners): Conor McGregor vs George Saint Pierre
-- Module: ufc.py
-- Tests: test_ufc.py
-- Link: https://www.codewars.com/kata/for-ufc-fans-total-beginners-conor-mcgregor-vs-george-saint-pierre/
+Fake Binary
+- Module: fake_binary.py
+- Tests: test_fake_binary.py
+- Link: https://www.codewars.com/kata/fake-binary/python
 
-For UFC Fans (Total Beginners): Conor McGregor vs George Saint Pierre
-- Module: ufc.py
-- Tests: test_ufc.py
-- Link: https://www.codewars.com/kata/for-ufc-fans-total-beginners-conor-mcgregor-vs-george-saint-pierre/
+Remove First and Last Character
+- Module: remove_first_last.py
+- Tests: test_remove_first_last.py
+- Link: https://www.codewars.com/kata/remove-first-and-last-character/
 
-For UFC Fans (Total Beginners): Conor McGregor vs George Saint Pierre
-- Module: ufc.py
-- Tests: test_ufc.py
-- Link: https://www.codewars.com/kata/for-ufc-fans-total-beginners-conor-mcgregor-vs-george-saint-pierre/
+Find the Position
+- Module: find_the_position.py
+- Tests: test_find_the_position.py
+- Link: https://www.codewars.com/kata/find-the-position/
 
-https://www.codewars.com/kata/convert-a-string-to-an-array/python
+
