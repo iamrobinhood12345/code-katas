@@ -3,7 +3,7 @@ def make_readable(seconds):
     seconds_remainder = seconds%60
     hours = minutes/60
     minutes_remainder = minutes%60
-    if hours<10:
+    if hours < 10:
         hours = '0' + str(hours)
     else:
         hours = str(hours)
