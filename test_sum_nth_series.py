@@ -1,3 +1,5 @@
+"""Tests for the sum_nth_series function."""
+
 import pytest
 
 PARAMS_NTH_SERIES = [
@@ -19,6 +21,7 @@ PARAMS_NTH_SERIES = [
 
 @pytest.mark.parametrize("n, result", PARAMS_NTH_SERIES)
 def test_sum_nth_series(n, result):
+    """Tests the sum_nth_series function."""
     from sum_nth_series import series_sum
     assert series_sum(n) == result
 

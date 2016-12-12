@@ -1,5 +1,8 @@
+"""Sums n terms of the series:
+Series: 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16 +...
+"""
+
 def series_sum(n):
-    # Happy Coding ^_^
     denominator = 1
     num = 0
     for i in range(0, n):
