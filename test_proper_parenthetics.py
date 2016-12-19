@@ -6,6 +6,7 @@ PARAMS_PAREN = [
 	('()()()(', 1),
 	('()((()', 1),
 	('()))()', -1),
+	('))((', -1),
 	('lkasjdkjfkl(lskdjflasf)lksjdkj', 0),
 	('lkasjdkj(fkl(lskdjflasf)lksjdkj', 1),
 	('lkasjdkj(fkl(lskdjf)lasf)lksjdkj', 0),
