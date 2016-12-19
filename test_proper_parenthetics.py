@@ -1,3 +1,5 @@
+"""Tests for proper_parenthetics.py."""
+
 import pytest
 
 PARAMS_PAREN = [
@@ -18,5 +20,6 @@ PARAMS_PAREN = [
 
 @pytest.mark.parametrize('text, result', PARAMS_PAREN)
 def test_parenthetics(text, result):
+	"""Tests the proper_parenthetics function."""
 	from proper_parenthetics import proper_parenthetics
 	assert proper_parenthetics(text) == result
