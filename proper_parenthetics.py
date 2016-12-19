@@ -7,7 +7,7 @@ from doubly_linked_list import Doubly_Linked_List
 def proper_parenthetics(text):
 	"""Returns a 1 if the string is parenthetically open.
 	Returns a 0 if the string is parenthetically balanced.
-	Returns a -1 if the string is parenthetically balaned."""
+	Returns a -1 if the string is parenthetically broken."""
 	parenthetics = Doubly_Linked_List()
 	text = text[::-1]
 	for char in text:
