@@ -84,7 +84,8 @@
 
         ========================== 48 passed in 0.24 seconds ===========================
 
-What Century
+
+What Century: 6th Kyu
 - Module: what_century.py
 - Tests: test_what_century.py
 - Link: https://www.codewars.com/kata/what-century-is-it/
@@ -94,7 +95,7 @@ def whatCentury(year):
     century = str(int(year) // 100 + (1 if int(year) % 100 > 0 else 0))
     return century + (indicators.get(century[-1], 'th') if century[0] != '1' else 'th')
 ```
-For UFC Fans (Total Beginners): Conor McGregor vs George Saint Pierre
+For UFC Fans (Total Beginners): Conor McGregor vs George Saint Pierre: 8th Kyu
 - Module: ufc.py
 - Tests: test_ufc.py
 - Link: https://www.codewars.com/kata/for-ufc-fans-total-beginners-conor-mcgregor-vs-george-saint-pierre/
@@ -107,7 +108,7 @@ statements = {
 def quote(fighter):
     return statements[fighter.lower()]
 ```
-Convert a string to an array
+Convert a string to an array: 8th Kyu
 - Module: convert_string.py
 - Tests: test_convert_string.py
 - Link: https://www.codewars.com/kata/convert-a-string-to-an-array/
@@ -123,7 +124,7 @@ Sum of the first nth term of Series
 def series_sum(n):
     return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
 ```
-Fake Binary
+Fake Binary: 8th Kyu
 - Module: fake_binary.py
 - Tests: test_fake_binary.py
 - Link: https://www.codewars.com/kata/fake-binary/python
@@ -131,7 +132,7 @@ Fake Binary
 def fake_bin(x):
     return ''.join('0' if c < '5' else '1' for c in x)
 ```
-Remove First and Last Character
+Remove First and Last Character: 8th Kyu
 - Module: remove_first_last.py
 - Tests: test_remove_first_last.py
 - Link: https://www.codewars.com/kata/remove-first-and-last-character/
@@ -139,7 +140,7 @@ Remove First and Last Character
 def remove_char(s):
     return s[1 : -1]
 ```
-Find the Position
+Find the Position: 8th Kyu
 - Module: find_the_position.py
 - Tests: test_find_the_position.py
 - Link: https://www.codewars.com/kata/find-the-position/
@@ -147,14 +148,14 @@ Find the Position
 def position(alphabet):
     return "Position of alphabet: {}".format(ord(alphabet) - 96)
 ```
-Where My Anagrams At
+Where My Anagrams At: 5th Kyu
 - Module: anagrams.py
 - Tests: test_anagrams.py
 - Link: https://www.codewars.com/kata/where-my-anagrams-at/python
 ```
 def anagrams(word, words): return [item for item in words if sorted(item)==sorted(word)]
 ```
-Human Readable Time
+Human Readable Time: 5th Kyu
 - Module: human_time.py
 - Tests: test_human_time.py
 - Link: https://www.codewars.com/kata/human-readable-time/python
