@@ -1,5 +1,90 @@
 # code-katas
 
+        platform darwin -- Python 2.7.13, pytest-3.0.6, py-1.4.32, pluggy-0.4.0
+        rootdir: /Users/ben/401/code-katas/code-katas, inifile: 
+        plugins: cov-2.4.0
+        collected 48 items 
+
+        src/test_anagrams.py ......
+        src/test_convert_string.py .....
+        src/test_fake_binary.py .....
+        src/test_find_the_position.py ...
+        src/test_remove_first_last.py .....
+        src/test_sum_nth_series.py .............
+        src/test_ufc.py ....
+        src/test_what_century.py .......
+
+        ---------- coverage: platform darwin, python 2.7.13-final-0 ----------
+        Name                            Stmts   Miss  Cover   Missing
+        -------------------------------------------------------------
+        src/anagrams.py                    12      0   100%
+        src/convert_string.py               2      0   100%
+        src/fake_binary.py                  7      0   100%
+        src/find_the_position.py            2      0   100%
+        src/human_time.py                  15     15     0%   1-18
+        src/remove_first_last.py            3      0   100%
+        src/sum_nth_series.py               5      0   100%
+        src/test_anagrams.py                7      0   100%
+        src/test_convert_string.py          5      0   100%
+        src/test_fake_binary.py             5      0   100%
+        src/test_find_the_position.py       5      0   100%
+        src/test_human_time.py              0      0   100%
+        src/test_remove_first_last.py       5      0   100%
+        src/test_sum_nth_series.py          5      0   100%
+        src/test_ufc.py                     5      0   100%
+        src/test_what_century.py            5      0   100%
+        src/ufc.py                          9      0   100%
+        src/what_century.py                16      2    88%   11, 17
+        -------------------------------------------------------------
+        TOTAL                             113     17    85%
+
+
+        ========================== 48 passed in 0.21 seconds ===========================
+
+-
+
+        platform darwin -- Python 3.5.2, pytest-3.0.6, py-1.4.32, pluggy-0.4.0
+        rootdir: /Users/ben/401/code-katas/code-katas, inifile: 
+        plugins: cov-2.4.0
+        collected 48 items 
+
+        src/test_anagrams.py ......
+        src/test_convert_string.py .....
+        src/test_fake_binary.py .....
+        src/test_find_the_position.py ...
+        src/test_remove_first_last.py .....
+        src/test_sum_nth_series.py .............
+        src/test_ufc.py ....
+        src/test_what_century.py .......
+
+        ---------- coverage: platform darwin, python 3.5.2-final-0 -----------
+        Name                            Stmts   Miss  Cover   Missing
+        -------------------------------------------------------------
+        src/anagrams.py                    12      0   100%
+        src/convert_string.py               2      0   100%
+        src/fake_binary.py                  7      0   100%
+        src/find_the_position.py            2      0   100%
+        src/human_time.py                  15     15     0%   1-18
+        src/remove_first_last.py            3      0   100%
+        src/sum_nth_series.py               5      0   100%
+        src/test_anagrams.py                7      0   100%
+        src/test_convert_string.py          5      0   100%
+        src/test_fake_binary.py             5      0   100%
+        src/test_find_the_position.py       5      0   100%
+        src/test_human_time.py              0      0   100%
+        src/test_remove_first_last.py       5      0   100%
+        src/test_sum_nth_series.py          5      0   100%
+        src/test_ufc.py                     5      0   100%
+        src/test_what_century.py            5      0   100%
+        src/ufc.py                          9      0   100%
+        src/what_century.py                16      2    88%   11, 17
+        -------------------------------------------------------------
+        TOTAL                             113     17    85%
+
+
+        ========================== 48 passed in 0.24 seconds ===========================
+
+
 What Century: 6th Kyu
 - Module: what_century.py
 - Tests: test_what_century.py
