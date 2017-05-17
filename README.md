@@ -85,6 +85,21 @@
         ========================== 48 passed in 0.24 seconds ===========================
 
 
+Amounts Subsets: 6th Kyu
+- Module: amounts_subsets.py
+- Link: https://www.codewars.com/kata/estimating-amounts-of-subsets/
+```
+
+"""Module for amounts_subsets."""
+
+
+def est_subsets(arr):
+    """Number of subsets of a collection."""
+    return 2 ** (len(set(arr))) - 1
+
+
+```
+
 What Century: 6th Kyu
 - Module: what_century.py
 - Tests: test_what_century.py
